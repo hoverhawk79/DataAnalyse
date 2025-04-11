@@ -1,6 +1,6 @@
 import pandas as pd
 
-# 读取 Excel 文件  aaaccc
+# 读取 Excel 文件  ccc
 file_path = "2. Unemployed_Skäggetorp_Linköping auto.xlsx"
 sheet_name = "AL53"
 df = pd.read_excel(file_path, sheet_name=sheet_name, skiprows=3)  # 跳过前 3 行
