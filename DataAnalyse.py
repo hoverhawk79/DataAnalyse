@@ -5,7 +5,7 @@ file_path = "2. Unemployed_Skäggetorp_Linköping auto.xlsx"
 sheet_name = "AL53"
 df = pd.read_excel(file_path, sheet_name=sheet_name, skiprows=3)  # 跳过前 3 行
 
-# 清理数据：删除完全为空的行和列 aaa
+# 清理数据：删除完全为空的行和列 bbb
 df = df.dropna(how='all').dropna(axis=1, how='all')
 
 # 重命名列（根据原始结构）
